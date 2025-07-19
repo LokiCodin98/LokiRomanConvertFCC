@@ -1,0 +1,50 @@
+:root {
+  --gray-1: #3b3b4f; 
+}
+
+body {
+  background-color: var(--gray-1);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
+  margin-top: 500px;
+  max-height: 100vh;
+}
+
+#mainId {
+  color: yellow;
+  text-shadow: 3px 3px black;
+}
+
+#info {
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+#main-box {
+  color: white;
+  border: double;
+  background-color: black;
+  border-radius: 10px;
+}
+
+#button-box {
+  color: blue;
+  border: double;
+}
+
+#output {
+
+  color: yellow;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+#outputH {
+  color: pink;
+  padding-left: 35px;
+}
+
